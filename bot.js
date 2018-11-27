@@ -41,8 +41,10 @@ client.on('message', message => {
     }) //7md
     }  //7md
     }) //7md
-var adminprefix = '---'
-const developers = ["516226504066072588"]
+ });
+var prefix = "d";
+var adminprefix = 'البريفكس'
+const developers = ["الايدي"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
