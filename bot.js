@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js')
 const client = new Discord.Client();
 client.on('message', message => {
               if(!message.channel.guild) return;
@@ -41,4 +41,4 @@ client.on('message', message => {
     }  //7md
     }) //7md
 
-client.login(process.env.BOT_TOKEN);
+ client.login(process.env.BOT_TOKEN);
